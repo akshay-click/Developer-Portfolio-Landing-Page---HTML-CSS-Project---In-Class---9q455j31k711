@@ -5,14 +5,14 @@
 }
 body {
   font-family: "Lato", sans-serif;
-  width: 100vw;
   background-color: grey;
 }
 .hero {
   background-image: url(hero-bg.jpg);
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
+  background-position: center;
 }
 .hero-heading {
   font-family: "Lato", sans-serif;
@@ -33,7 +33,6 @@ body {
 .blackbox {
   background-color: #000;
   padding: 20px;
-  /* width: 100vw; */
 }
 .blackbox h3 {
   text-align: center;
@@ -57,7 +56,7 @@ body {
   max-width: 340px;
   height: 400px;
   border-radius: 10px;
-  box-shadow: 8px 8px rgba(27, 26, 26, 0.938);
+  box-shadow: 5px 5px rgba(27, 26, 26, 0.938);
 }
 .card img {
   position: relative;
@@ -87,7 +86,6 @@ body {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  /* background-color: black; */
 }
 .bottom-item {
   max-width: 600px;
@@ -96,7 +94,7 @@ body {
   color: white;
   background-color: rgb(54, 54, 54);
   border-radius: 8px;
-  box-shadow: 8px 8px rgba(27, 26, 26, 0.938);
+  box-shadow: 5px 5px rgba(27, 26, 26, 0.938);
   margin-bottom: 10px;
 }
 .bottom-item h1 {
@@ -112,14 +110,14 @@ body {
 
 @media only screen and (max-width: 786px) {
   .hero {
-    min-width: 50vh;
+    min-height: 50vh;
     text-align: center;
   }
   .blackbox h3 {
     font-size: 24px;
   }
   .blackbox span {
-    font-size: 28px;
+    font-size: 30px;
   }
   .bottom {
     flex-direction: column;
